@@ -1,0 +1,79 @@
+html {
+  background-color: white;
+}
+
+body {
+  font-family: "Lucida Sans Unicode";
+  width: 900px;
+  align-self: center;
+  text-align: justify;
+  background-color: white;
+  font-size: 14px;
+  margin: 10px;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 0.25em;
+  word-spacing: 0.4em;
+  width: 100%;
+  margin-left: 15%;
+  color: green;
+}
+
+h1 span {
+  color: orange;
+}
+
+ul {
+  text-align: left;
+}
+div {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.selector {
+  float: left;
+  width: 100px;
+}
+.texto {
+  margin-left: 23%;
+  width: 85%;
+  border: 1px solid black;
+}
+h2 {
+  color: lightgreen;
+  border-bottom: 1px solid lightgreen;
+}
+h3 {
+  color: orange;
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+
+li {
+  margin-bottom: 10%;
+  border: 2px solid lightgray;
+}
+li.boton {
+  background-color: lightgreen;
+  padding: 10px 20px;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13px;
+}
+li.botonprincipal {
+  background-color: orange;
+  padding: 10px 20px;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+li:hover {
+  background-color: greenyellow;
+}
